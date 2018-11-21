@@ -36,7 +36,6 @@ header {
     padding-top: 2px;
     height: 16px;
     margin-top: 16px; 
-    position: relative; 
 }
 
 #footer {
@@ -51,7 +50,7 @@ header {
     margin-bottom: 0px;
 }
 
-#aboutme {
+.event {
     background-color: #ffffff;
     width: 960px; 
     height:  500px; 
@@ -71,7 +70,7 @@ h2 {
 }
 
 #selfie {
-    border: dashed #dddddd 5px;
+    border: solid white 5px; 
     float: left;  
     margin-top: 10px; 
     margin-right: 10px; 
@@ -82,11 +81,12 @@ h2 {
 }
 
 
-#content {
+.content {
     font-family: Arial; 
     color: gray; 
     border-top: 3px #cccccc solid; 
     width: 100%; 
     height: 420px;  
+    font-size: 22px; 
     
 }
