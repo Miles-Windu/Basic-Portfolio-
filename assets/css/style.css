@@ -108,9 +108,18 @@ form {
     margin: 8px; 
 }
 
-#messages {
-    width: 90%; 
-    height: 90%; 
+
+textarea {
+    width: 91%;
+    height: 90%;
+    resize: none; 
+    line-height: 25px;
+    font-size: 20px; 
+    color: gray;
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-top: 5px; 
+    border-color: gray;
 }
 
 #submit {
