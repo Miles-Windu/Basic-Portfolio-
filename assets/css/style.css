@@ -167,6 +167,7 @@ input {
 
 .pics:hover {
     opacity: 0.35;
+    cursor: pointer;
 }
 
 .banner {
